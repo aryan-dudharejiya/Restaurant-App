@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Reservation button */}
           <a
             className="btn btn-outline-light btn-lg"
-            href="/reservation"
+            href="/booking"
             role="button"
           >
             Reservate

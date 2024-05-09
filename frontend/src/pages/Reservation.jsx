@@ -35,7 +35,7 @@ const Reservation = () => {
       }
 
       // Send reservation request to the server
-      const response = await axios.post("http://localhost:5000/book", {
+      const response = await axios.post("https://restaurant-app-nlgd.onrender.com/book", {
         fullName,
         date,
         time,

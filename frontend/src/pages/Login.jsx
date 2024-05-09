@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import reservationImage from "../assets/reservation.png";
 import Footer from "../components/Footer";
@@ -31,7 +31,7 @@ const Login = ({ handleLogin }) => {
 
     try {
       // Send login request to the server
-      const response = await axios.post("http://localhost:5000/login", {
+      const response = await axios.post("https://restaurant-app-nlgd.onrender.com/login", {
         fullName,
         password,
         confirmPassword,

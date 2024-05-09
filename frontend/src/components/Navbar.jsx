@@ -41,7 +41,7 @@ const Navbar = ({ loggedIn, handleSignOut }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${isHomePage ? "text-dark" : "text-dark"}`} to="/reservation">
+              <Link className={`nav-link ${isHomePage ? "text-dark" : "text-dark"}`} to="/booking">
                 Reservation
               </Link>
             </li>
